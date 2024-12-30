@@ -1,0 +1,22 @@
+.main {
+    display: grid;
+    grid-template-areas:
+        'header header'
+        'left right';
+
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    width: 100%;
+}
+
+.main .header {
+    grid-area: header;
+}
+.main .left {
+    grid-area: left;
+}
+.main .right {
+    grid-area: right;
+    background-color: yellow;
+}
