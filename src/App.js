@@ -1,11 +1,10 @@
-import logo from './logo.svg'
-import './App.css'
-import Hello from './components/Hello'
+import './layout.css'
+import Layout from './Layout'
 
 function App() {
     return (
         <div className="App">
-            <Hello />
+            <Layout />
         </div>
     )
 }
